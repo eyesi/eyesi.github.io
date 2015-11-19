@@ -980,7 +980,7 @@ ul, ol {
 
 .content--segment {
   *zoom: 1;
-  padding: 50px;
+  padding: 150px 50px;
   position: relative;
   height: auto; }
   .content--segment:before, .content--segment:after {
@@ -990,22 +990,22 @@ ul, ol {
     clear: both; }
   @media screen and (min-width: 700px) and (min-height: 400px) {
     .content--segment {
-      padding: 80px; } }
+      padding: 150px 80px; } }
   @media screen and (min-width: 700px) and (min-height: 420px) {
     .content--segment {
-      padding: 100px; } }
+      padding: 150px 100px; } }
   @media screen and (min-width: 880px) and (min-height: 430px) {
     .content--segment {
-      padding: 110px; } }
+      padding: 150px 110px; } }
   @media screen and (min-width: 980px) and (min-height: 450px) {
     .content--segment {
-      padding: 115px; } }
+      padding: 150px 115px; } }
   @media screen and (min-width: 1000px) and (min-height: 700px) {
     .content--segment {
-      padding: 130px; } }
+      padding: 150px 130px; } }
   @media screen and (min-width: 1100px) and (min-height: 700px) {
     .content--segment {
-      padding: 140px; } }
+      padding: 150px 140px; } }
   @media screen and (min-width: 1100px) and (min-height: 700px) {
     .content--segment {
       padding: 150px; } }
@@ -1131,6 +1131,7 @@ ul, ol {
     width: 75%;
     float: left; }
 
+/*
 .logo-wrapper {
   display: block;
   width: 100%;
@@ -1138,11 +1139,21 @@ ul, ol {
   left: 0;
   margin-bottom: 40px;
 }
+*/
+
+.logo-wrapper {
+  display: block;
+  width: 100%;
+  position: fixed;
+  top: 47px;
+  left: 0;
+  margin-bottom: 40px;
+}
 
 .logo {
   display: block;
   margin: 0 auto;
-  height: 60px;
+  height: 56px;
 }
 
 .copy-large {
