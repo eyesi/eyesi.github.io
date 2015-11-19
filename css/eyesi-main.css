@@ -1144,7 +1144,7 @@ ul, ol {
 .logo-wrapper {
   display: block;
   width: 100%;
-  position: fixed;
+  position: absolute;
   top: 47px;
   left: 0;
   margin-bottom: 40px;
