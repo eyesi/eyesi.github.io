@@ -1008,7 +1008,7 @@ ul, ol {
       padding: 150px 140px; } }
   @media screen and (min-width: 1100px) and (min-height: 700px) {
     .content--segment {
-      padding: 150px; } }
+      padding: 200px; } }
   @media screen and (min-width: 879px) {
     .content--segment {
       width: 100%;
